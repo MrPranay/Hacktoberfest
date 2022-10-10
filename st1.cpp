@@ -26,7 +26,7 @@ int main()
         cin>>r2>>w2>>c2;
         if ( ((r1>r2) && (w1>w2)) || ((r1>r2) && (c1>c2)) || ((w1>w2) && (c1>c2)) ) cout<<'A'<<endl;
         
-        else cout<<'b'<<endl;
+        else cout<<'B'<<endl;
 	}
 
 
