@@ -11,7 +11,6 @@ struct Stack {
 };
 
 // function to create a stack of given capacity. It initializes size of
-// stack as 0
 struct Stack* createStack(int n)
 {
 	struct Stack* stack = (struct Stack*)malloc(sizeof(struct Stack));
