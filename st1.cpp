@@ -7,7 +7,7 @@ using namespace std;
 #define vi vector<int>
 #define pii pair<int,int>
 #define double long double
-#define all(x) (x).begin(),(x).end()
+
 
 
 
