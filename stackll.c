@@ -64,6 +64,5 @@ int main()
     push(6);
     
     pop();
-    //display();
     return 0;
 }
