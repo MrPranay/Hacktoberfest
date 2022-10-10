@@ -62,9 +62,8 @@ int main()
     push(8);
     push(9);
     push(6);
-    push(4);
-    push(1);
+    
     pop();
-    display();
+    //display();
     return 0;
 }
