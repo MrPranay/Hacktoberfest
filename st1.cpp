@@ -9,6 +9,7 @@ using namespace std;
 #define double long double
 
 
+	// cin.tie speeds up the I/O process
 
 
 int main()
