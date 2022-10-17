@@ -1,14 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
-//..hysh
 #define int long long int
 #define FOR(x,i,e) for(int x=i; x<e; x++)
 #define pb push_back
 #define vi vector<int>
 #define pii pair<int,int>
 #define double long double
-
-
 
 
 int main()
