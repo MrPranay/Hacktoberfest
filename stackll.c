@@ -25,9 +25,7 @@ void push(int element)
     size++;
 
     printf("%d pushed to stack.\n",element);
-}
-int pop()
-{
+
     int data = 0;
     struct stack * topNode;
     if (size <= 0 || !top)
