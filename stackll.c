@@ -57,9 +57,9 @@ void display(){
 }
 int main()
 {
-    push(8);
+    push(45);
+    push(5);
     push(9);
-    push(6);
     
     pop();
     return 0;
