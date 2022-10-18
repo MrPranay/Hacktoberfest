@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-//..hysh
 #define int long long int
 #define FOR(x,i,e) for(int x=i; x<e; x++)
 #define pb push_back
@@ -19,7 +18,7 @@ int main()
 	cin.tie(NULL);
 	cout.tie(NULL);
 	int t;
-	cin>>t;
+	cin>>t;//stsv;l
 	while(t--)
 	{
 		int r1,w1,c1,r2,w2,c2;
