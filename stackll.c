@@ -14,7 +14,7 @@ int size = 0;
 void push(int element)
 {
     if (size >= CAPACITY)
-    {
+    {//kk
         printf("Stack Overflow, can't add more element to stack.\n");
         return;
     }
