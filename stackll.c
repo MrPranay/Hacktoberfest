@@ -41,6 +41,7 @@ void push(int element)
     return data;
 }
 //display part
+//here stack is empty.
 void display(){
     struct stack *temp;
     if(top == NULL)
