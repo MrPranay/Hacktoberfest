@@ -17,9 +17,6 @@ struct Stack* createStack(int n)
 	stack->top = -1;
 	stack->array = (int*)malloc(stack->n * sizeof(int));
 	return stack;
-}
-
-// Stack is full when top is equal to the last index
 int isFull(struct Stack* stack)
 {
 	return stack->top == stack->n - 1;
