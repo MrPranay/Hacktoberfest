@@ -6,7 +6,7 @@ using namespace std;
 #define vi vector<int>
 #define pii pair<int,int>
 #define double long double
-
+//.bong
 
 	// cin.tie speeds up the I/O process
 
