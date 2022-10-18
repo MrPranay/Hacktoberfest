@@ -10,7 +10,6 @@ struct stack
 
 int size = 0;
 
-
 void push(int element)
 {
     if (size >= CAPACITY)
