@@ -8,7 +8,7 @@ struct Stack {
 	int n;
 	int* array;
 };
-
+//mallock is used for dynamic memory allocation
 // function to create a stack of given capacity. It initializes size of
 struct Stack* createStack(int n)
 {
