@@ -37,6 +37,7 @@ int push(struct Stack* stack, int item)
     return item;
 	//printf("%d pushed to stack\n", item);
 }
+//printf
 
 // Function to remove an item from stack. It decreases top by 1
 int pop(struct Stack* stack)
