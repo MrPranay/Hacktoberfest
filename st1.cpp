@@ -6,7 +6,7 @@ using namespace std;
 #define vi vector<int>
 #define pii pair<int,int>
 #define double long double
-
+//.bong
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
 	cin.tie(NULL);
 	cout.tie(NULL);
 	int t;
-	cin>>t;
+	cin>>t;//stsv;l
 	while(t--)
 	{
 		int r1,w1,c1,r2,w2,c2;

@@ -8,7 +8,7 @@ struct Stack {
 	int n;
 	int* array;
 };
-
+//mallock is used for dynamic memory allocation
 // function to create a stack of given capacity. It initializes size of
 struct Stack* createStack(int n)
 {
@@ -17,9 +17,6 @@ struct Stack* createStack(int n)
 	stack->top = -1;
 	stack->array = (int*)malloc(stack->n * sizeof(int));
 	return stack;
-}
-
-// Stack is full when top is equal to the last index
 int isFull(struct Stack* stack)
 {
 	return stack->top == stack->n - 1;
@@ -40,6 +37,7 @@ int push(struct Stack* stack, int item)
     return item;
 	//printf("%d pushed to stack\n", item);
 }
+//printf
 
 // Function to remove an item from stack. It decreases top by 1
 int pop(struct Stack* stack)

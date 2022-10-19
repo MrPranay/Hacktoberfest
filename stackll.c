@@ -10,11 +10,10 @@ struct stack
 
 int size = 0;
 
-
 void push(int element)
 {
     if (size >= CAPACITY)
-    {
+    {//kk
         printf("Stack Overflow, can't add more element to stack.\n");
         return;
     }
@@ -41,6 +40,8 @@ void push(int element)
 
     return data;
 }
+//display part
+//here stack is empty.
 void display(){
     struct stack *temp;
     if(top == NULL)
@@ -57,9 +58,9 @@ void display(){
 }
 int main()
 {
-    push(8);
+    push(45);
+    push(5);
     push(9);
-    push(6);
     
     pop();
     return 0;
