@@ -8,10 +8,6 @@ using namespace std;
 #define double long double
 //.bong
 
-	// cin.tie speeds up the I/O process
-//vector is used because it can dynamically grow its size.
-
-
 int main()
 {
 	
